@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  </head>
+  <body>
+    <script type="module">
+      import init, { tada_alert } from "./pkg/alert_example.js";
+
+      async function run() {
+        await init();
+        tada_alert();
+      }
+
+      run();
+    </script>
+  </body>
+</html>
